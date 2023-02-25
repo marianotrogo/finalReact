@@ -1,0 +1,87 @@
+.empityCart {
+    margin: 0 auto;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    place-items: center;
+}
+
+.tittleEmpity {
+    font-size: clamp(1em, 3vw, 2.5em);
+    color: #000;
+}
+
+
+.cartContainer {
+    margin: 3rem 4rem;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5em;
+}
+
+.mainCart {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.cartH2 {
+    color: #000;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.cartProducts {
+    margin: 0;
+
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    gap: 2em;
+}
+
+.tittleForm {
+    color: #000;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.totalCart {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.totalCart-p{
+    margin-bottom: 1rem;
+
+    color: #000;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+}
+
+span {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #2e2e2e;
+}

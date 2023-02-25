@@ -1,0 +1,10 @@
+.containerProduct{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: auto auto;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    gap: 2rem;
+}

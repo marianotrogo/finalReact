@@ -1,0 +1,14 @@
+.form-cart {
+    width: 20rem;
+
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 1rem;
+}
+
+.form-text {
+    padding: 5px;
+    font-size: 1em;
+    border-radius: 3px;
+}
